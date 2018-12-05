@@ -4,3 +4,50 @@ Author: Winter Animosus, Manuel, Kizzy, Jessica
 Description: Boys and Girls Club website Theme
 Version: 0.0.1
 */
+
+/* ALL *//* ALL *//* ALL *//* ALL *//* ALL *//* ALL *//* ALL *//* ALL */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+    /* HTML *//* HTML *//* HTML *//* HTML *//* HTML *//* HTML *//* HTML */
+    html
+    {
+        height: 100%;
+    }
+        /* body *//* body *//* body *//* body *//* body *//* body *//* body */
+        body
+        {
+            display: grid;
+        }
+            /* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav */
+            nav
+            {
+                
+            }
+
+            /* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] */
+            /* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main */
+            main
+            {
+                min-height: 100%;
+                display: block;
+            }
+
+            /* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] */
+            /* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+            footer
+            {
+                background: darkolivegreen;
+                width:100%;
+                padding: 0.25em;
+                text-align: center;
+                color: white;
+                display: block;
+            }
+
+            /* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] */
+        /* [BODY] *//* [BODY] *//* [BODY] *//* [BODY] *//* [BODY] *//* [BODY] *//* [BODY] *//* [BODY] */
+    /* [HTML] *//* [HTML] *//* [HTML] *//* [HTML] *//* [HTML] *//* [HTML] *//* [HTML] *//* [HTML] */
+/* [ALL] *//* [ALL] *//* [ALL] *//* [ALL] *//* [ALL] *//* [ALL] *//* [ALL] *//* [ALL] */
