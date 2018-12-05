@@ -20,6 +20,8 @@ Version: 0.0.1
         body
         {
             display: grid;
+            grid-template: repeat(11, 1fr) auto / repeat(12, 1fr);
+            height: 100%;
         }
             /* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav */
             nav
@@ -31,8 +33,8 @@ Version: 0.0.1
             /* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main */
             main
             {
-                min-height: 100%;
-                display: block;
+                grid-column: 1/13;
+                grid-row: 2/12;
             }
 
             /* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] */
@@ -40,11 +42,12 @@ Version: 0.0.1
             footer
             {
                 background: darkolivegreen;
-                width:100%;
                 padding: 0.25em;
                 text-align: center;
                 color: white;
                 display: block;
+                grid-column: 1/13;
+                grid-row: 12/13;
             }
 
             /* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] *//* [FOOTER] */
