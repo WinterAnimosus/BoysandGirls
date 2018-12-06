@@ -11,11 +11,4 @@
     <?php wp_head();?>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </nav>
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
