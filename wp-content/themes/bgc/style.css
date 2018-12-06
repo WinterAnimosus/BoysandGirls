@@ -23,13 +23,80 @@ Version: 0.0.1
             grid-template: repeat(11, 1fr) auto / repeat(12, 1fr);
             height: 100%;
         }
-            /* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav */
-            nav
-            {
-                
-            }
+            /* header *//* header *//* header *//* header *//* header *//* header */
+                header
+                {
+                    grid-column: 1/13;
+                    grid-row: 1/2;
+                    display: grid;
+                    grid-template: auto / repeat(12, 1fr);
+                    background: lightblue;
+                    height: 3.4em;
+                }
+                /* logo *//* logo *//* logo *//* logo *//* logo *//* logo *//* logo */
+                div#logo
+                {
+                    grid-column: 2/4;
+                }
+                div#logo img
+                {
+                    position: relative;
+                    transform: rotate(-7.5deg);
+                    width: 150%;
+                }
+                /* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] */
+                /* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav */
+                div.menu-top-menu-container
+                {
+                    text-align: center;
+                    grid-column: 6/13;
+                }
+                    div.menu-top-menu-container ul
+                    {
+                        display: flex;
+                        list-style: none;
+                        justify-content: flex-end
+                    }
+                        div.menu-top-menu-container ul li
+                        {
+                            /* margin-left: 1em; */
+                        }
+                            div.menu-top-menu-container ul li a
+                            {
+                                display: block;
+                                padding: 0.75em;
+                                /* border-left: 1px solid slategray; */
+                                text-decoration: none;
+                                margin-top: 0.2em;
+                                z-index: 1;
+                                color: white;
+                                font-weight: bold;
+                                font-size: 1.2em;
+                            }
+                            div.menu-top-menu-container ul li a:hover
+                            {
+                                color: black;
 
-            /* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] */
+                            }
+                            div.menu-top-menu-container ul li#menu-item-60 a
+                            {
+                                border-radius: 5px 0 0 5px;
+                                border:none;
+                            }
+                            div.menu-top-menu-container ul li#menu-item-94 a
+                            {
+                                position: relative;
+                                border-radius: 0 0px 15px 15px;
+                                background: #d83f3f;
+                                padding: 3.3em 0.8em 0.7em 0.8em;
+                                margin-top: 0;
+                                margin-right: 0.4em;
+                                display: block;
+                                
+                            }
+
+                /* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] */
+            /* [HEADER] *//* [HEADER] *//* [HEADER] *//* [HEADER] *//* [HEADER] */
             /* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main */
             main
             {

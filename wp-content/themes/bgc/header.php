@@ -11,4 +11,9 @@
     <?php wp_head();?>
 </head>
 <body>
-    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+    <header>
+        <div id="logo">
+            <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/2018/12/image002129.jpg">
+        </div>
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+    </header>
