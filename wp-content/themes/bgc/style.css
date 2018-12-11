@@ -92,7 +92,11 @@ Version: 0.0.1
                                 margin-top: 0;
                                 margin-right: 0.4em;
                                 display: block;
-                                
+                                transition: padding 1s;
+                            }
+                            div.menu-top-menu-container ul li#menu-item-94 a:hover
+                            {
+                                padding: 4em 0.8em 1em 0.8em;
                             }
 
                 /* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] */
@@ -102,8 +106,23 @@ Version: 0.0.1
             {
                 grid-column: 1/13;
                 grid-row: 2/12;
+                display: grid;
+                grid-template: repeat(12,1fr)/repeat(12,1fr);
             }
+            /* Notice *//* Notice *//* Notice *//* Notice *//* Notice *//* Notice */
+                div.alert
+                {
+                    grid-column: 1/2;
+                    grid-row: 3/9;
+                    background: orange;
+                    display: block;
+                }
+                div.alert p
+                {
+                    padding: 0.25em;
+                }
 
+            /* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] */
             /* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] */
             /* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
             footer
