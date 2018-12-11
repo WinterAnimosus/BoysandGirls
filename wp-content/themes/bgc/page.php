@@ -9,5 +9,7 @@
             else: echo '<p>Sorry, no posts matched your criteria.</p>';
         endif;
     ?>
+    <?php get_template_part('sponsers',get_post_format());?>
 </main>
+
 <?php get_footer();?>
