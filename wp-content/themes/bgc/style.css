@@ -34,6 +34,11 @@ Version: 0.0.1
                     background: lightblue;
                     height: 3.4em;
                     margin-bottom: 2em;
+                    transition: padding 1s;
+                }
+                header:hover
+                {
+                    padding: 2em 0em 1em 0em;
                 }
                 /* logo *//* logo *//* logo *//* logo *//* logo *//* logo *//* logo */
                 div#logo
@@ -90,15 +95,28 @@ Version: 0.0.1
                                 position: relative;
                                 border-radius: 0 0px 15px 15px;
                                 background: #d83f3f;
-                                padding: 3.3em 0.8em 0.7em 0.8em;
-                                margin-top: 0;
+                                padding: 5.3em 0.8em 0.7em 0.8em;
+                                margin-top: -2em;
                                 margin-right: 0.4em;
                                 display: block;
                                 transition: padding 1s;
+                                top: 0;
+                            }
+                            div.menu-top-menu-container ul li#menu-item-94 a:after
+                            {
+                                position: absolute;
+                                content: 'vvvvv';
+                                font-size: 35px;
+                                -webkit-text-stroke: 10px #d83f3f;
+                                text-stroke: 10px black;
+                                bottom:-15px;
+                                left:0;
+                                width: 100%;
+                                overflow:hidden;
                             }
                             div.menu-top-menu-container ul li#menu-item-94 a:hover
                             {
-                                padding: 4em 0.8em 1em 0.8em;
+                                padding: 7em 0.8em 1em 0.8em;
                             }
 
                 /* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] *//* [NAV] */
@@ -116,7 +134,7 @@ Version: 0.0.1
                     {
                         grid-column: 3/12;
                         grid-row: 1/11;
-                        background: #d83f3f;
+                        background: slateblue;
                         display: grid;
                         grid-template: repeat(12,1fr)/repeat(12,1fr);
                     }
@@ -124,7 +142,7 @@ Version: 0.0.1
                     {
                         grid-column: 1/13;
                         grid-row: 1/11;
-                        background: #d83f3f;
+                        background: slateblue;
                         display: grid;
                         grid-template: repeat(12,1fr)/repeat(12,1fr);
                         padding: 1em;
@@ -162,7 +180,7 @@ Version: 0.0.1
                         width: 10em;
                         position: relative;
                         animation-name: slide;
-                        animation-duration: 5s;
+                        animation-duration: 15s;
                         animation-iteration-count: infinite;
                         animation-timing-function: linear;
                         animation-direction: alternate;
