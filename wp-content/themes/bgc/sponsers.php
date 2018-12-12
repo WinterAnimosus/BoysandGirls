@@ -1,13 +1,4 @@
 <?php /*Template Name: sponsers*/ ?>
 <div class="sliding">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
-<img src="https://via.placeholder.com/100">
+<?php echo do_shortcode('[metaslider id="111"]'); ?>
 </div>
