@@ -151,11 +151,27 @@ Version: 0.0.1
             /* Sponsers *//* Sponsers *//* Sponsers *//* Sponsers *//* Sponsers */
                 main div.sliding
                 {
-                    grid-column: 1/13;
+                    grid-column: 3/10;
                     grid-row:11/13;
                     display: flex;
-                    justify-content: left;
+                    background: white;
+                    overflow:hidden;
                 }
+                    main div.sliding img
+                    {
+                        width: 10em;
+                        position: relative;
+                        animation-name: slide;
+                        animation-duration: 5s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                        animation-direction: alternate;
+                    }
+                        @keyframes slide
+                        {
+                            0% {left:0;}
+                            100% {left:-74%;}
+                        }
 
             /* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] */
             /* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
