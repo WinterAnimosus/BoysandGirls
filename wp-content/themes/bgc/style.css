@@ -33,6 +33,7 @@ Version: 0.0.1
                     grid-template: auto / repeat(12, 1fr);
                     background: lightblue;
                     height: 3.4em;
+                    margin-bottom: 2em;
                 }
                 /* logo *//* logo *//* logo *//* logo *//* logo *//* logo *//* logo */
                 div#logo
@@ -111,11 +112,22 @@ Version: 0.0.1
                 grid-template: repeat(12,1fr)/repeat(12,1fr);
             }
                 /* Content *//* Content *//* Content *//* Content *//* Content *//* Content */
-                    div.content
+                    div.content1
                     {
                         grid-column: 3/12;
-                        grid-row: 1/10;
+                        grid-row: 1/11;
                         background: #d83f3f;
+                        display: grid;
+                        grid-template: repeat(12,1fr)/repeat(12,1fr);
+                    }
+                    div.content2
+                    {
+                        grid-column: 1/13;
+                        grid-row: 1/11;
+                        background: #d83f3f;
+                        display: grid;
+                        grid-template: repeat(12,1fr)/repeat(12,1fr);
+                        padding: 1em;
                     }
 
                 /* [CONTENT] *//* [CONTENT] *//* [CONTENT] *//* [CONTENT] *//* [CONTENT] */
@@ -142,7 +154,7 @@ Version: 0.0.1
                     grid-column: 1/13;
                     grid-row:11/13;
                     display: flex;
-                    justify-content: center;
+                    justify-content: left;
                 }
 
             /* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] */
