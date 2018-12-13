@@ -35,6 +35,7 @@ Version: 0.0.1
                     height: 2.7em;
                     margin-bottom: 2em;
                     transition: padding 1s;
+                    position: absolute;
                 }
                 header:hover
                 {
@@ -97,7 +98,7 @@ Version: 0.0.1
                                 position: relative;
                                 border-radius: 0 0px 15px 15px;
                                 background: #d83f3f;
-                                padding: 5.3em 0.8em 0.7em 0.8em;
+                                padding: 7.3em 0.8em 0.7em 0.8em;
                                 margin-top: -5em;
                                 margin-right: 0.4em;
                                 display: block;
@@ -117,7 +118,7 @@ Version: 0.0.1
                             }
                             div.menu-top-menu-container ul li#menu-item-94 a:hover
                             {
-                                padding: 7em 0.8em 1em 0.8em;
+                                padding: 8em 0.8em 1em 0.8em;
                             }
                 div#translate
                 {
@@ -224,9 +225,38 @@ Version: 0.0.1
                 /* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] */
             /* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] *//* [MAIN] */
             /* Sponsers *//* Sponsers *//* Sponsers *//* Sponsers *//* Sponsers */
+                button#hide
+                {
+                    background: rgba(83, 102, 83, 0.5);
+                    border: none;
+                    cursor: pointer;
+                    grid-column: 12/13;
+                    grid-row: 10/11;
+                    text-align: center;
+                    width: 5em;
+                    height: 2em;
+                    padding: 0.5em;
+                    margin-top:3em;
+                }
+                i 
+                {
+                    border: solid black;
+                    border-width: 0 3px 3px 0;
+                    display: inline-block;
+                    padding: 3px;
+                }
+                .up
+                {
+                    transform: rotate(-135deg);
+                }
+                .down
+                {
+                    transform: rotate(45deg);
+                
+                }
                 main div.sliding
                 {
-                    grid-column: 3/10;
+                    grid-column: 1/13;
                     grid-row:11/13;
                     display: flex;
                     background: white;
@@ -237,7 +267,7 @@ Version: 0.0.1
                         width: 10em;
                         position: relative;
                         animation-name: slide;
-                        animation-duration: 10s;
+                        animation-duration: 40s;
                         animation-iteration-count: infinite;
                         animation-timing-function: linear;
                         animation-direction: alternate;
@@ -245,7 +275,7 @@ Version: 0.0.1
                         @keyframes slide
                         {
                             0% {left:0;}
-                            100% {left:-74%;}
+                            100% {left:-56%;}
                         }
                         main div.sliding:hover img
                         {
