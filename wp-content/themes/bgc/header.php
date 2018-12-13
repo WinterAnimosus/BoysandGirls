@@ -18,5 +18,12 @@
         <div id="logo">
             <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/2018/12/image002129.jpg">
         </div>
+        <div id="translate">
+            <ul>
+                <li>
+                    <a href="">French</a> <!-- write php to check if already translated -->
+                </li>
+            </ul>
+        </div>
         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </header>
