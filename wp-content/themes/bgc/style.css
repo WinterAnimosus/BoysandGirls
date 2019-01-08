@@ -157,7 +157,7 @@ Version: 0.0.1
                 grid-column: 1/13;
                 grid-row: 2/12;
                 display: grid;
-                grid-template: repeat(12,1fr)/repeat(12,1fr);
+                grid-template: repeat(10,1fr) auto auto/repeat(12,1fr);
             }
                 /* Content *//* Content *//* Content *//* Content *//* Content *//* Content */
                     div.content1
@@ -274,14 +274,14 @@ Version: 0.0.1
                 main div.sliding
                 {
                     grid-column: 1/13;
-                    grid-row:11/13;
+                    grid-row:11/12;
                     display: flex;
                     background: white;
                     overflow:hidden;
                 }
                     main div.sliding img
                     {
-                        width: 10em;
+                        height: 10em;
                         position: relative;
                         animation-name: slide;
                         animation-duration: 40s;
