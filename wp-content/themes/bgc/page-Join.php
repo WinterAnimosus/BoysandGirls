@@ -1,36 +1,12 @@
 <?php get_header(); ?>
 <main>
-    <?php get_template_part('notice',get_post_format());?>
-    
         <?php
-            if(''!==(get_post(98)->post_content)){
-                echo '<div class="content1">';
-            }else{
-                echo '<div class="content2">';
-            }
+            echo '<div class="content3">';
             if(''!==(get_post(123)->post_content)){
                 $post_id = 123;
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
-                echo "<div id='TopLeftHome'>";
-                echo "<h3>".$queried_post->post_title."</p>";
-                echo "<p>".$queried_post->post_content."</p>";
-                echo "</div>";
-            }
-            if(''!==(get_post(125)->post_content)){
-                $post_id = 125;
-                $queried_post = get_post($post_id);
-                $title = $queried_post->post_title;
-                echo "<div id='TopRightHome'>";
-                echo "<h3>".$queried_post->post_title."</p>";
-                echo "<p>".$queried_post->post_content."</p>";
-                echo "</div>";
-            }
-            if(''!==(get_post(127)->post_content)){
-                $post_id = 127;
-                $queried_post = get_post($post_id);
-                $title = $queried_post->post_title;
-                echo "<div id='BottomHome'>";
+                echo "<div id='join'>";
                 echo "<h3>".$queried_post->post_title."</p>";
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
@@ -43,7 +19,5 @@
             // endif;
             echo '</div>';
         ?>
-    
-    <?php get_template_part('sponsers',get_post_format());?>
 </main>
 <?php get_footer();?>
