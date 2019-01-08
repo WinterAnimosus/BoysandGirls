@@ -125,23 +125,18 @@ Version: 0.0.1
                                 position: relative;
                                 border-radius: 0 0px 15px 15px;
                                 background: #d83f3f;
-                                padding: 7.3em 0.8em 0.7em 0.8em;
+                                padding: 7.3em 0.822em 0.7em 0.81em;
                                 margin-top: -5em;
                                 margin-right: 0.4em;
                                 display: block;
                                 transition: padding 1s;
                                 top: 0;
                             }
-                            div.menu-top-menu-container ul li#menu-item-94 a:after
-                            {
-                                position: absolute;
-                                content: 'vvvvv';
-                                font-size: 35px;
-                                -webkit-text-stroke: 10px #d83f3f;
-                                bottom:-15px;
-                                left:0;
-                                width: 100%;
-                                overflow:hidden;
+                            div.menu-top-menu-container ul li#menu-item-94::after{
+                                content:url('/bgc/wp-content/uploads/2018/12/Untitled-Diagram.png');
+                                top:-1em;
+                                position: relative;
+                                left: -0.040039056rem;
                             }
                             div.menu-top-menu-container ul li#menu-item-94 a:hover
                             {
