@@ -2,8 +2,8 @@
 <main>
         <?php
             echo '<div class="content3">';
-            if(''!==(get_post(123)->post_content)){
-                $post_id = 123;
+            if(''!==(get_post(132)->post_content)){
+                $post_id = 132;
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
                 echo "<div id='join'>";
