@@ -16,6 +16,7 @@ Version: 0.0.1
     {
         height: 100%;
         font-family:Arial, Helvetica, sans-serif;
+        background: url()
     }
         /* body *//* body *//* body *//* body *//* body *//* body *//* body */
         body
@@ -234,7 +235,7 @@ Version: 0.0.1
                             grid-column: 7/12;
                             grid-row: 2/6;
                             display: block;
-                            background: wheat;
+                            /* background: wheat; */
                             border-radius: 1em;
                             margin-left: 0.5em;
                             text-align: right;
