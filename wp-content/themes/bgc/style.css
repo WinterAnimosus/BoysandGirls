@@ -53,6 +53,8 @@ Version: 0.0.1
                     position: relative;
                     transform: rotate(-7.5deg);
                     width: 150%;
+                    background: lightblue;
+                    padding: 0.25em;
                 }
                 /* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] */
                 /* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav *//* nav */
