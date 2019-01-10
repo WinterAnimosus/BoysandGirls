@@ -7,7 +7,7 @@
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
                 echo "<div id='join'>";
-                echo "<h3>".$queried_post->post_title."</p>";
+                echo "<h3>".$queried_post->post_title."</h3>";
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
             }

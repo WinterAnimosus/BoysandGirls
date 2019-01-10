@@ -21,7 +21,7 @@ Version: 0.0.1
         {
             display: grid;
             grid-template: repeat(11, 1fr) auto / repeat(12, 1fr);
-            height: 100%;
+            min-height: 100%;
             background: rgba(83, 102, 83, 0.5);
         }
             /* header *//* header *//* header *//* header *//* header *//* header */
@@ -243,7 +243,14 @@ Version: 0.0.1
                             background: wheat;
                             border-radius: 1em;
                             margin-right: 0.5em;
+                            margin-top: 1.5em;
                         }
+                            /* P of JOIN *//* P of JOIN *//* P of JOIN *//* P of JOIN */
+                                div#join p, div#join h3
+                                {
+                                    margin: 1em 0 0.5em 1em;
+                                }
+                            /* [P of JOIN] *//* [P of JOIN] *//* [P of JOIN] *//* [P of JOIN] */
                         /* [INSIDE CONTENT] *//* [INSIDE CONTENT] *//* [INSIDE CONTENT] */
                 /* [CONTENT] *//* [CONTENT] *//* [CONTENT] *//* [CONTENT] *//* [CONTENT] */
                 /* Notice *//* Notice *//* Notice *//* Notice *//* Notice *//* Notice */
@@ -303,7 +310,7 @@ Version: 0.0.1
                 }
                     main div.sliding img
                     {
-                        height: 10em;
+                        height: 7.2em;
                         position: relative;
                         animation-name: slide;
                         animation-duration: 40s;

@@ -13,7 +13,7 @@
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
                 echo "<div id='TopLeftHome'>";
-                echo "<h3>".$queried_post->post_title."</h3>";
+                echo "<h3>".$queried_post->post_title."</p>";
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
             }
@@ -22,7 +22,7 @@
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
                 echo "<div id='TopRightHome'>";
-                echo "<h3>".$queried_post->post_title."</h3>";
+                echo "<h3>".$queried_post->post_title."</p>";
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
             }
@@ -31,7 +31,7 @@
                 $queried_post = get_post($post_id);
                 $title = $queried_post->post_title;
                 echo "<div id='BottomHome'>";
-                echo "<h3>".$queried_post->post_title."</h3>";
+                echo "<h3>".$queried_post->post_title."</p>";
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
             }
