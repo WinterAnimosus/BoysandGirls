@@ -16,7 +16,7 @@
 <body>
     <header>
         <div id="logo">
-            <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/2018/12/image002129.jpg">
+            <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/2019/01/logogood.png">
         </div>
         <div id="translate">
             <ul>
