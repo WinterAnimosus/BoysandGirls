@@ -17,15 +17,19 @@
                 echo "<p>".$queried_post->post_content."</p>";
                 echo "</div>";
             }
-            if(''!==(get_post(125)->post_content)){
-                $post_id = 125;
-                $queried_post = get_post($post_id);
-                $title = $queried_post->post_title;
-                echo "<div id='TopRightHome'>";
-                echo "<h3>".$queried_post->post_title."</h3>";
-                echo "<p>".$queried_post->post_content."</p>";
-                echo "</div>";
-            }
+            // if(''!==(get_post(125)->post_content)){
+            //     $post_id = 125;
+            //     $queried_post = get_post($post_id);
+            //     $title = $queried_post->post_title;
+            //     echo "<div id='TopRightHome'>";
+            //     echo "<h3>".$queried_post->post_title."</h3>";
+            //     echo "<p>".$queried_post->post_content."</p>";
+            //     echo "</div>";
+            // }
+            echo "<div id='TopRightHome'>";
+            echo do_shortcode('[metaslider id="117"]');
+            echo "</div>";
+
             if(''!==(get_post(127)->post_content)){
                 $post_id = 127;
                 $queried_post = get_post($post_id);
