@@ -12,7 +12,7 @@
             document.getElementById("hide").innerHTML="hide <i class='arrow down'></i>";
             hid = false;
             document.getElementById("slide").style.display = "flex";
-            document.getElementById("hide").style.cssText = "grid-row:10/11;";
+            document.getElementById("hide").style.cssText = "grid-row:11/12;";
         }
     }
 </script>
