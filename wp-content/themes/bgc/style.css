@@ -15,6 +15,7 @@ Version: 0.0.1
     html
     {
         height: 100%;
+        font-family:Arial, Helvetica, sans-serif;
     }
         /* body *//* body *//* body *//* body *//* body *//* body *//* body */
         body
@@ -22,7 +23,7 @@ Version: 0.0.1
             display: grid;
             grid-template: repeat(11, 1fr) auto / repeat(12, 1fr);
             min-height: 100%;
-            background: rgba(83, 102, 83, 0.5);
+            background:white;
         }
             /* header *//* header *//* header *//* header *//* header *//* header */
                 header
@@ -31,7 +32,7 @@ Version: 0.0.1
                     grid-row: 1/2;
                     display: grid;
                     grid-template: auto auto / repeat(12, 1fr);
-                    background: lightblue;
+                    background:#66cc00;
                     height: 2.7em;
                     margin-bottom: 2em;
                     transition: padding 1s;
@@ -59,7 +60,7 @@ Version: 0.0.1
                     position: relative;
                     /* transform: rotate(-7.5deg); */
                     width: 23.738em;
-                    background: lightblue;
+                    background:white;
                     padding: 0.25em;
                     border-radius: 0 0 1em 1em;
                     
@@ -343,7 +344,7 @@ Version: 0.0.1
             /* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
             footer
             {
-                background: darkolivegreen;
+                background:#66cc00;
                 padding: 0.25em;
                 text-align: center;
                 color: white;
