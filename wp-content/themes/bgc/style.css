@@ -34,36 +34,35 @@ Version: 0.0.1
                     display: grid;
                     grid-template: auto auto / repeat(12, 1fr);
                     background:#66cc00;
-                    height: 2.7em;
-                    margin-bottom: 2em;
+                    height: 2.7rem;
+                    margin-bottom: 2rem;
                     transition: padding 1s;
                     position: absolute;
                     width: 100%;
                 }
                 header:hover
                 {
-                    padding-top: 2em;
+                    padding-top: 2rem;
                 }
                 /* logo *//* logo *//* logo *//* logo *//* logo *//* logo *//* logo */
                 div#logo
                 {
                     grid-column: 2/4;
-                    margin-top: -0.5em;
-                    height: 3.892em;
+                    margin-top: -0.5rem;
+                    height: 3.892rem;
                     box-shadow: 0px 14px 26px 0px rgba(0,0,0,0.49);
                     display: block;
-                    width: 24em;
-                    /* padding: 0.25em; */
-                    border-radius: 0 0 1em 1em;
+                    width: 24rem;
+                    border-radius: 0 0 1rem 1rem;
                 }
                 div#logo img
                 {
                     position: relative;
                     /* transform: rotate(-7.5deg); */
-                    width: 23.738em;
+                    width: 23.738rem;
                     background:white;
-                    padding: 0.25em;
-                    border-radius: 0 0 1em 1em;
+                    padding: 0.25rem;
+                    border-radius: 0 0 1rem 1rem;
                     
                 }
                 /* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] *//* [LOGO] */
@@ -76,31 +75,30 @@ Version: 0.0.1
                     /* overflow:hidden; */
                 }
                     div.menu-top-menu-container ul
-                    {
-                        
-                        display: flex;
+                    { 
+                        display: grid;
+                        grid-template: auto auto / repeat(7, auto);
                         list-style: none;
                         justify-content: flex-end
-                        
-                         
                     }
-                   
-                        /* div.menu-top-menu-container ul li 
+                        div.menu-top-menu-container ul li 
                         {
-                             margin-left: 1em; 
-                        }*/
+                            grid-column: auto;
+                            grid-row: 1/2;
+                        }
                         div.menu-top-menu-container ul li ul{
                             display:none;
-                            position: absolute;
+                            position: relative;
                             /* min-width: 160px; */
-                            
+                            margin-top: -.7em;
                             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                            background-color:#aed9e7;
-                            /* margin:1em; */
-                            /* padding: 4em; */
+                            background-color:#6c0;
+                            /* margin:1rem; */
+                            /* padding: 4rem; */
+                            z-index: 1;
                         }
                         div.menu-top-menu-container ul li ul li{
-                            margin-bottom: .35em;
+                            margin-bottom: .35rem;
                         }
                         div.menu-top-menu-container ul li ul li a{
                             display: initial;
@@ -113,15 +111,15 @@ Version: 0.0.1
                             div.menu-top-menu-container ul li a
                             {
                                 display: block;
-                                padding: 0.75em;
+                                padding: 0.75rem;
                                 /* border-left: 1px solid slategray; */
                                 text-decoration: none;
-                                margin-top: -2.9em;
+                                margin-top: -2.9rem;
                                 z-index: 1;
                                 color: white;
                                 font-weight: bold;
-                                font-size: 1.2em;
-                                padding-bottom: 0.2em;
+                                font-size: 1.2rem;
+                                /* padding-bottom: 0rem; */
                             }
                             div.menu-top-menu-container ul li a:hover
                             {
@@ -133,27 +131,32 @@ Version: 0.0.1
                                 border-radius: 5px 0 0 5px;
                                 border:none;
                             }
+                        div.menu-top-menu-container ul li#menu-item-94
+                        {
+                            grid-row: 1/3;
+                        }
                             div.menu-top-menu-container ul li#menu-item-94 a
                             {
                                 position: relative;
                                 border-radius: 0 0px 15px 15px;
                                 background: #d83f3f;
-                                padding: 7.3em 0.822em 0.7em 0.81em;
-                                margin-top: -5em;
-                                margin-right: 0.4em;
+                                padding: 7.3rem 0.822rem 0.7rem 0.81rem;
+                                margin-top: -5rem;
+                                margin-right: 0.4rem;
                                 display: block;
                                 transition: padding 1s;
                                 top: 0;
                             }
                             div.menu-top-menu-container ul li#menu-item-94::after{
                                 content:url('/bgc/wp-content/uploads/2018/12/Untitled-Diagram.png');
-                                top:-1em;
+                                top:-1rem;
                                 position: relative;
                                 left: -0.040039056rem;
+                                width: 100%;
                             }
                             div.menu-top-menu-container ul li#menu-item-94 a:hover
                             {
-                                padding: 8em 0.8em 1em 0.8em;
+                                padding: 8rem 0.8rem 1rem 0.8rem;
                             }
                 div#translate
                 {
@@ -170,14 +173,14 @@ Version: 0.0.1
                         div#translate ul li a
                         {
                             display: block;
-                            padding: 0.75em;
+                            padding: 0.75rem;
                             /* border-left: 1px solid slategray; */
                             text-decoration: none;
-                            margin-top: -2em;
+                            margin-top: -2rem;
                             z-index: 1;
                             color: white;
                             font-weight: bold;
-                            font-size: 1.2em;
+                            font-size: 1.2rem;
                         }
                             div#translate ul li a:hover
                             {
@@ -201,7 +204,7 @@ Version: 0.0.1
                         grid-row: 1/11;
                         /* background: slateblue; */
                         display: grid;
-                        grid-template: repeat(12,1fr)/repeat(12,1fr);
+                        grid-template: repeat(9,1fr)/repeat(12,1fr);
                     }
                     div.content2
                     {
@@ -209,26 +212,26 @@ Version: 0.0.1
                         grid-row: 1/11;
                         /* background: slateblue; */
                         display: grid;
-                        grid-template: repeat(12,1fr)/repeat(12,1fr);
-                        padding: 1em;
+                        grid-template: repeat(9,1fr)/repeat(12,1fr);
+                        padding: 1rem;
                     }
                     div.content3
                     {
                         grid-column: 1/13;
                         grid-row: 1/13;
                         display: grid;
-                        grid-template: repeat(12,1fr)/repeat(12,1fr);
-                        padding: 0.5em;
+                        grid-template: repeat(9,1fr)/repeat(12,1fr);
+                        padding: 0.5rem;
                     }
                         /* Inside content *//* Inside content *//* Inside content */
                         div#TopLeftHome
                         {
                             grid-column: 2/7;
-                            grid-row: 2/6;
+                            grid-row: 2/5;
                             display: block;
                             background: wheat;
-                            border-radius: 1em;
-                            margin-right: 0.5em;
+                            border-radius: 1rem;
+                            margin-right: 0.5rem;
                         }
                         div#TopRightHome
                         {
@@ -236,17 +239,21 @@ Version: 0.0.1
                             grid-row: 2/6;
                             display: block;
                             /* background: wheat; */
-                            border-radius: 1em;
-                            margin-left: 0.5em;
+                            border-radius: 1rem;
+                            margin-left: 0.5rem;
                             text-align: right;
                         }
+                            div#metaslider_117
+                            {
+                                border-radius: 1rem;
+                            }
                         div#BottomHome
                         {
                             grid-column: 2/12;
-                            grid-row: 7/12;
+                            grid-row: 6/9;
                             display: block;
                             background: wheat;
-                            border-radius: 1em;
+                            border-radius: 1rem;
                         }
                         div#join
                         {
@@ -254,14 +261,14 @@ Version: 0.0.1
                             grid-row: 1/12;
                             display: block;
                             background: wheat;
-                            border-radius: 1em;
-                            margin-right: 0.5em;
-                            margin-top: 1.5em;
+                            border-radius: 1rem;
+                            margin-right: 0.5rem;
+                            margin-top: 1.5rem;
                         }
                             /* P of JOIN *//* P of JOIN *//* P of JOIN *//* P of JOIN */
                                 div#join p, div#join h3
                                 {
-                                    margin: 1em 0 0.5em 1em;
+                                    margin: 1rem 0 0.5rem 1rem;
                                 }
                             /* [P of JOIN] *//* [P of JOIN] *//* [P of JOIN] *//* [P of JOIN] */
                         /* [INSIDE CONTENT] *//* [INSIDE CONTENT] *//* [INSIDE CONTENT] */
@@ -270,7 +277,7 @@ Version: 0.0.1
                     div.alert
                     {
                         grid-column: 1/3;
-                        grid-row: 3/9;
+                        grid-row: 2/7;
                         background: rgb(255, 196, 0);
                         display: block;
                         border-radius: 25px;
@@ -278,7 +285,7 @@ Version: 0.0.1
                     }
                     div.alert p
                     {
-                        padding: 0.25em;
+                        padding: 0.25rem;
                     }
 
                 /* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] *//* [NOTICE] */
@@ -290,12 +297,13 @@ Version: 0.0.1
                     border: none;
                     cursor: pointer;
                     grid-column: 12/13;
-                    grid-row: 10/11;
+                    grid-row: 11/12;
                     text-align: center;
-                    width: 5em;
-                    height: 2em;
-                    padding: 0.5em;
-                    margin-top:2.1em;
+                    width: 5rem;
+                    height: 2rem;
+                    padding: 0.5rem;
+                    margin-top:-2rem;
+                    position: relative;
                 }
                 i 
                 {
@@ -323,7 +331,7 @@ Version: 0.0.1
                 }
                     main div.sliding img
                     {
-                        height: 7.2em;
+                        height: 7.2rem;
                         position: relative;
                         animation-name: slide;
                         animation-duration: 40s;
@@ -346,7 +354,7 @@ Version: 0.0.1
             footer
             {
                 background:#66cc00;
-                padding: 0.25em;
+                padding: 0.25rem;
                 text-align: center;
                 color: white;
                 display: block;
