@@ -332,7 +332,7 @@ Version: 0.0.1
                     background: white;
                     overflow:hidden;
                 }
-                    main div.sliding img
+                    main div.sliding a
                     {
                         height: 7.2rem;
                         position: relative;
@@ -345,12 +345,16 @@ Version: 0.0.1
                         @keyframes slide
                         {
                             0% {left:0;}
-                            100% {left:-56%;}
+                            100% {left:-94.950em;}
                         }
-                        main div.sliding:hover img
+                        main div.sliding:hover a
                         {
                             animation-play-state: paused;
                         }
+                    main div.sliding img
+                    {
+                        height: 7.2em;
+                    }
 
             /* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] *//* [SPONSERS] */
             /* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
