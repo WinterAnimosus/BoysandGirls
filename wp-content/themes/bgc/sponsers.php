@@ -33,7 +33,7 @@
 <a target="_blank" href="http://www.loblaw.ca/en.html" title="Loblaw"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Loblaw.jpg"></a>
 <a target="_blank" href="https://www.medaviebc.ca" title="Medavie"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Medavie.jpg"></a>
 <a target="_blank" href="https://www.microsoft.com/en-ca" title="Microsoft"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Microsoft.jpg"></a>
-<a target="_blank" href="https://www.cafconnection.ca" title="Military_Families"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Military_Families.jpg"></a>
+<a target="_blank" href="https://www.cafconnection.ca" title="Military_Families"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Military_Families_ENG.jpg"></a>
 <a target="_blank" href="https://www.facebook.com/loose.moose1?utm_source=tripadvisor&utm_medium=referral" title="Moosers_Pub"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Moosers_Pub.jpg"></a>
 <a target="_blank" href="http://normspizza.strikingly.com" title="Norms_Pizza"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/Norms_Pizza.jpg"></a>
 <a target="_blank" href="https://www.presidentschoice.ca/en_CA/community/pccc.html" title="President_Choice"><img src="<?php echo 'http://'.$_SERVER['HTTP_HOST']; ?>/bgc/wp-content/uploads/logos/ENGSponsorsList/President_Choice.jpg"></a>
