@@ -345,7 +345,7 @@ Version: 0.0.1
                         @keyframes slide
                         {
                             0% {left:0;}
-                            100% {left:-94.950em;}
+                            100% {left:-383rem;}
                         }
                         main div.sliding:hover a
                         {
